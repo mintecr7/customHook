@@ -1,0 +1,11 @@
+
+  h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: clamp(.8rem, 1.6rem, 2rem);
+    color: rgb(255, 255, 255);
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  }
+  
+ 
+  
