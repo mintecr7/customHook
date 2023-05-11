@@ -4,7 +4,7 @@ import { atom, useRecoilState, useResetRecoilState } from "recoil"
 const syncLanguageState = (language: string) => {
     document.documentElement.lang = language
 
-    localStorage.setItem('local', language)
+    localStorage.setItem('locale', language)
 }
 
 
